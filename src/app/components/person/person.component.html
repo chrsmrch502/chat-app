@@ -1,0 +1,5 @@
+<div class="item{{arrNum}}" *ngFor="let arrNum of arrNums; index as i; first as isFirst">
+<label class="label" id="person" for="Person{{arrNum+1}}">Person {{arrNum +1}}</label>
+<input class="input" size="50px" type="text" id="{{arrNum+1}}" name="Person{{arrNum+1}}" (keyup.enter)="onEnter()" (keyup)="onKey()" (focus)="changeThings()" onfocus="this.value=''" value="Enter your message here...">
+<button class="btn" id="button{{arrNum+1}}" disabled="disabled" (click)="onClick()" >> SEND</button>
+</div>

@@ -1,0 +1,31 @@
+.btn{
+  border: 1px solid #f44c0e;
+  color: #fff;
+  background: tomato;
+  padding: 20px 25px;
+  border-radius: 3px;
+}
+
+.btn:hover{
+  background: #f44c0e;
+}
+
+.label{
+  color: #B4886B;
+  font-weight: bold;
+  display: block;
+}
+label:after { content: ": " }
+
+.input{
+  height:50px;
+  size:50px;
+  width: 250px;
+}
+
+.input[type=text]
+{
+  text-align: justify;
+  vertical-align: top;
+}
+

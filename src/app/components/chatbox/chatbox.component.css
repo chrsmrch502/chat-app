@@ -1,0 +1,44 @@
+.matdiv{
+  background-color: white;
+  box-shadow: #254C58 1px 0px;
+  border: #3C7D91 5px double;
+  padding: 10px 10px 10px 10px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  max-height: 433px;
+  max-width: 350px;
+  position: absolute;
+  top: 95px;
+  right: 35px;
+  width: 3500px;
+}
+.btn {
+  display: block;
+  border: none;
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  top: 580px;
+  right: 175px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+h2{
+  position: absolute;
+  top: 5px;
+  right: 175px;
+  text-align: center;
+}
+
+.mat-list-item{
+
+}
+
+
